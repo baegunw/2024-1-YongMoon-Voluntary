@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    body{
+      /* 정렬 및 배치 */
+      display: flex;
+      justify-content: center;  
+      /* 배경 색상을 변경할 수 있어요! */
+      /* background-color: #c3c9c954;  */
+      background-color: rgb(44, 44, 44);
+        }
+
+    div.contents{
+      /* 정렬 및 배치 */
+      display: flex; 
+      flex-direction: column; 
+      justify-content: center; 
+      align-content: center; 
+      width: 840px;
+    }
+
+    h1.title{
+      /* 정렬 및 배치 */
+      display: flex; 
+      flex-direction: row; 
+      justify-content: start; 
+      padding: 15px; 
+      margin-bottom: 10px;
+      /* 웹페이지 제목 칸 색상을 바꿀 수 있어요!  */
+      background-color: rgb(141, 141, 141); 
+      font-size: larger;
+      /* 테두리를 설정할 수 있어요 */
+      /* border-radius: 10px;
+      border: 2px solid #6ad8d3; */
+    }
+    
+    
+    ul{
+      list-style: none;
+    }
+    li{
+      float: left; 
+    }
+    a{
+      padding-right: 30px; 
+      text-decoration: none; 
+      color: rgb(185, 185, 185); 
+      font-weight: 600;
+    }
+    /* nav바 */
+    div.nav{
+      display: flex; 
+      flex-direction: row; 
+      align-items: center; 
+      height: 35px; 
+      margin-bottom: 10px; 
+      background-color: #3a3a3a;
+      text-decoration-line: none;
+      /* 테두리를 설정할 수 있어요 */
+      /* border-radius: 10px;
+      border: 3px solid #6ad8d3; */
+    }
+    div.main_aboutlike{
+      display: flex; 
+      flex-direction: column; 
+      align-items: center; 
+      min-height: 70vh; 
+      padding: 50px; 
+      background-color: rgb(0, 0, 0);
+      /* 테두리를 설정할 수 있어요 */
+      /* border-radius: 10px; */
+      border: 3px solid #ffffff;
+    }
+
+    /* 제목 */
+    p.title{
+      display: flex; 
+      flex-direction: row; 
+      justify-content: center; 
+      padding: 15px; 
+      margin-bottom: 4px; 
+      font-size: larger;
+    }
+    /* 이미지 칸 */
+    img#profile{
+      width: 150px; 
+      border-radius: 100px; 
+      border: 2px solid #494949; 
+      margin-bottom: 10px;
+    }
+
+
+
+  </style>
+
+  <title>배건우의 웹페이지</title>
+  <meta charset="utf-8">
+  
+</head>
+<body>
+  <div class="contents">
+    <h1 class="title">배건우의 웹페이지</h1>
+
+  <div class="nav">
+    <ul>
+      <li><a href="aboutMe.html">About Me</a></li>
+      <li><a href="aboutLike.html">About Like</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+
+    </ul>
+  </div>
+  
+  <div class="main_aboutLike">
+    <!-- about Like 페이지에 들어갈 나의 취미와 좋아하는 것을 소개하는 내용을 추가해봅시다. (이미지 태그와 p태그를 이용해보세요)-->
+
+
+    <h2 style="background-color: rgb(255, 255, 255);">배건우가 좋아하는 음식은!</h2>
+    <img id="poto" src="chicken.jpg" width="500px"></img>
+    <h2 style="background-color: rgb(255, 255, 255);">배건우가 좋아하는 게임은!</h2>
+    <img id="poto" src="ELDEN RING.jpg" width="1000px"></img>
+    <img id="poto" src="BLOODBORNE.jpg" width="1000px"></img>
+    <img id="poto" src="DARK SOULS.jpg" width="1000px"></img>
+    <p style="background-color: rgb(255, 255, 255);">ELDEN RING,BLOODBORNE,DARK SOULS</p>
+  </div>
+  </div>
+  
+</body>
