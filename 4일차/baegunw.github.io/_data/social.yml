@@ -1,0 +1,9 @@
+- title: Email
+  url: mailto://beagunwoo08@gmail.com
+  icon: fas fa-envelope
+- title: steam
+  url: https://steamcommunity.com/profiles/76561198856111959/
+  icon: fab fa-twitter
+- title: GitHub
+  url: https://github.com/baegunw
+  icon: fab fa-github
